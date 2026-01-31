@@ -1,0 +1,6 @@
+FROM --platform=linux/amd64 docker.gitea.com/runner-images:ubuntu-latest
+
+# Metadata
+LABEL org.opencontainers.image.source="https://github.com/ObNitram/gitea-action-image"
+LABEL org.opencontainers.image.description="Gitea runner image for AMD64 architecture"
+LABEL org.opencontainers.image.licenses="MIT"
